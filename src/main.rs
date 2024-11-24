@@ -879,7 +879,7 @@ async fn participant_commands_handler(
             .await?;
             bot.send_message(
                 msg.chat.id,
-                "Check /help for ways that I can provide you help. To get started with the photo challenge use /join_team followed by the team name. The team name must be identical for all team members."
+                "Check /help for ways that I can provide you help.\n\nTo get started with the photo challenge use /join_team followed by the team name. The team name must be identical for all team members.\n\nAny photos or videos you sent me will be submissions to photo challenge. Please consider adding meaningful captions!"
             )
             .await?;
         }
